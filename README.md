@@ -1,2 +1,3 @@
 # ds-notes
-data science notes from QUASTECH
+---
+🕯️ Here lies the notes.
