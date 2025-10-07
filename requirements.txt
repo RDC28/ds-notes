@@ -5,3 +5,5 @@ seaborn
 faker
 jupyter
 ipykernel
+scikit-learn
+scipy
