@@ -7,3 +7,5 @@ jupyter
 ipykernel
 scikit-learn
 scipy
+plotly
+bokeh
