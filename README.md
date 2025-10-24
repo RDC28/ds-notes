@@ -46,6 +46,7 @@ A growing collection of **data science notes and learning resources**, starting 
 ## 🧰 Technologies Learned
 
 * **Exploratory Data Analysis (EDA)** – Understanding, cleaning, and visualizing data
+* **Machine Learning (ML)** – Mathematical models, supervised, unsupervised, reinforcement learning
 
 ---
 
