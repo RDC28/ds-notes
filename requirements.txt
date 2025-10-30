@@ -1,11 +1,19 @@
+# data analysis
 numpy
 pandas
+faker
+# visualisation
 matplotlib
 seaborn
-faker
-jupyter
-ipykernel
-scikit-learn
-scipy
 plotly
 bokeh
+# machine learning
+scikit-learn
+scipy
+# web scrapping
+beautifulsoup4
+lxml
+requests
+# utility
+jupyter
+ipykernel
