@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Prediction</title>
+</head>
+<body>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <br>
+    <br>
+    <form action="/prediction" method = "post">
+        <label for="RideDistance_km">
+            RideDistance_km
+        </label>
+        <input type="number" name = "RideDistance_km" id = "RideDistance_km">
+        <br>
+
+        <label for="AvgSpeed_kmh">
+            AvgSpeed_kmh
+        </label>
+        <input type="number" name = "AvgSpeed_kmh" id = "AvgSpeed_kmh">
+        <br>
+
+        <label for="Temperature_C">
+            Temperature_C
+        </label>
+        <input type="number" name = "Temperature_C" id = "Temperature_C">
+        <br>
+
+        <label for="RiderWeight_kg">
+            RiderWeight_kg
+        </label>
+        <input type="number" name = "RiderWeight_kg" id = "RiderWeight_kg">
+        <br>
+        
+        <input type="submit">
+    </form>
+</body>
+</html>

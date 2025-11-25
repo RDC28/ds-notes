@@ -17,3 +17,4 @@ requests
 # utility
 jupyter
 ipykernel
+flask
