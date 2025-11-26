@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-</head>
-<body>
-    <a href="/">Home</a>
-    <a href="/prediction">Make a Prediction</a>
+{% extends 'layout.html'%}
+{% block title %}
+About us
+{% endblock %}
 
-    <h1>hello this page uses linear regression model to predict.</h1>
-</body>
-</html>
+{% block main %}
+<h1>hello this page uses linear regression model to predict.</h1>
+{% endblock %}

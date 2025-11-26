@@ -1,41 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Make Prediction</title>
-</head>
-<body>
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <br>
-    <br>
-    <form action="/prediction" method = "post">
-        <label for="RideDistance_km">
-            RideDistance_km
-        </label>
-        <input type="number" name = "RideDistance_km" id = "RideDistance_km">
-        <br>
+{% extends 'layout.html'%}
+{% block title %}
+Make a prediction
+{% endblock %}
 
-        <label for="AvgSpeed_kmh">
-            AvgSpeed_kmh
-        </label>
-        <input type="number" name = "AvgSpeed_kmh" id = "AvgSpeed_kmh">
-        <br>
+{% block main %}
+<form action="/prediction" method="post">
+    <div class="mb-3">
+    <label for="RideDistance_km" class="form-label">RideDistance_km</label>
+    <input
+        type="text"
+        class="form-control"
+        name="RideDistance_km"
+        id="RideDistance_km"
+        aria-describedby="helpId"
+        placeholder=""
+        required
+    />
+    <small id="helpId" class="form-text text-muted">Help text</small>
+    </div>
 
-        <label for="Temperature_C">
-            Temperature_C
-        </label>
-        <input type="number" name = "Temperature_C" id = "Temperature_C">
-        <br>
+    <div class="mb-3">
+    <label for="AvgSpeed_kmh" class="form-label">AvgSpeed_kmh</label>
+    <input
+        type="text"
+        class="form-control"
+        name="AvgSpeed_kmh"
+        id="AvgSpeed_kmh"
+        aria-describedby="helpId"
+        placeholder=""
+        required
+    />
+    <small id="helpId" class="form-text text-muted">Help text</small>
+    </div>
 
-        <label for="RiderWeight_kg">
-            RiderWeight_kg
-        </label>
-        <input type="number" name = "RiderWeight_kg" id = "RiderWeight_kg">
-        <br>
-        
-        <input type="submit">
-    </form>
-</body>
-</html>
+    <div class="mb-3">
+    <label for="Temperature_C" class="form-label">Temperature_C</label>
+    <input
+        type="text"
+        class="form-control"
+        name="Temperature_C"
+        id="Temperature_C"
+        aria-describedby="helpId"
+        placeholder=""
+        required
+    />
+    <small id="helpId" class="form-text text-muted">Help text</small>
+    </div>
+
+    <div class="mb-3">
+    <label for="RiderWeight_kg" class="form-label">RiderWeight_kg</label>
+    <input
+        type="text"
+        class="form-control"
+        name="RiderWeight_kg"
+        id="RiderWeight_kg"
+        aria-describedby="helpId"
+        placeholder=""
+        required
+    />
+    <small id="helpId" class="form-text text-muted">Help text</small>
+    </div>
+    <button
+        type="submit"
+        class="btn btn-primary"
+    >
+        Submit
+    </button>
+</form>
+
+
+
+
+{% endblock %}
