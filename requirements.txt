@@ -11,6 +11,8 @@ bokeh
 scikit-learn
 scipy
 xgboost
+# deep learning
+tensorflow
 # web scrapping
 beautifulsoup4
 lxml
