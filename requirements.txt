@@ -13,6 +13,10 @@ scipy
 xgboost
 # deep learning
 tensorflow
+# NLP
+nltk
+wordcloud
+spacy
 # web scrapping
 beautifulsoup4
 lxml
