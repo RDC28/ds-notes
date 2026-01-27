@@ -17,6 +17,8 @@ tensorflow
 nltk
 wordcloud
 spacy
+# Time series
+yfinance
 # web scrapping
 beautifulsoup4
 lxml
