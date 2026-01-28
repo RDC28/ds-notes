@@ -19,6 +19,7 @@ wordcloud
 spacy
 # Time series
 yfinance
+statmodels
 # web scrapping
 beautifulsoup4
 lxml
